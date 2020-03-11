@@ -9,7 +9,7 @@ public class AMDCPU extends CPU {
 	}
 	 public void work()
 		{
-			System.out.print(this.getName()+"work");
+			System.out.println(this.getName()+"work");
 		}
 
 }

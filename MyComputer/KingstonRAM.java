@@ -11,6 +11,6 @@ public class KingstonRAM extends RAM {
 	
 	public void work()
 	{
-		System.out.print(name+"work");
+		System.out.println(name+"work");
 	}
 }

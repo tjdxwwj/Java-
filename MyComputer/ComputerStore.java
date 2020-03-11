@@ -4,6 +4,10 @@ import java.util.ArrayList;
 
 public class ComputerStore {
 	ArrayList computers;
+	ComputerStore ()
+	{
+		computers=new ArrayList();
+	}
 	void Add(computer obj) throws Exception
 	{
 		if(computers.size()==3)
@@ -26,8 +30,9 @@ public class ComputerStore {
 		{
 			computer computer=(computer) computers.get(i);
 			computer.description();
-			System.out.println(computer.getPrice());
+			System.out.println("Price:"+computer.getPrice());
 			computer.work();
+			System.out.println();
 		}
 	}
 }
