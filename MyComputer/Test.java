@@ -35,11 +35,11 @@ public class Test {
 			ComputerStore.Add(computer1);
 			ComputerStore.Add(computer2);
 			ComputerStore.Add(computer3);
+			ComputerStore.description();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		ComputerStore.description();
 		
 	}
 
