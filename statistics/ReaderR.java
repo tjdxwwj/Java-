@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
 
+//FileReader
 public class ReaderR implements Read{
 	public String Result(File file) throws Exception
 	{

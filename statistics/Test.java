@@ -16,8 +16,7 @@ import java.util.Map.Entry;
 public class Test {
 	public static void main(String[] args) throws Exception {
 				
-//		File file = new File("D:\\下载的东西\\了不起的盖茨比英文.txt");
-		File file = new File("D:\\下载的东西\\1.txt");
+		File file = new File("D:\\下载的东西\\了不起的盖茨比英文.txt");
 		File file2 = new File("D:\\下载的东西\\output.txt");
 		if (!file.exists()) {
 			throw new NoFileException();
@@ -62,6 +61,7 @@ public class Test {
 				    
 			    for(Entry<String, Integer> mapping:list){ 
 			    	String str=(mapping.getKey()+" "+mapping.getValue()); 
+			    	//换行
 			    	str+="\r\n";
 			    	fileWritter.write(str);
 	              } 

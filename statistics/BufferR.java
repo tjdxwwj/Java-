@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
+//BufferedReader
 public class BufferR implements Read {
      public String Result(File file) throws Exception
      {
